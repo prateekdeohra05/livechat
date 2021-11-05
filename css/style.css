@@ -1,0 +1,39 @@
+.logo {
+  display: block;
+  height: 40px;
+  margin: 20px;
+  margin: auto;
+}
+.container {
+  background-color: red;
+  margin: auto;
+  max-width: 90%;
+  height: 60vh;
+  padding: 10px;
+  overflow-y: auto;
+}
+.message {
+  width: fit-content;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px;
+}
+.right {
+  display: block;
+  float: right;
+  clear: both;
+}
+.left {
+  display: block;
+  float: left;
+  clear: both;
+}
+#send-container {
+  text-align: center;
+  margin: 10px;
+}
+#messageInput {
+  width: 60%;
+}
